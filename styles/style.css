@@ -14,7 +14,7 @@ body {
   align-items: center;
 }
 
-.container-header .container-header__up-panel {
+.services .services__content, .services > span, .container-header .container-header__up-panel {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,6 +63,78 @@ body {
 }
 .container-header .bg-dark {
   opacity: 0.8;
+}
+
+.container-header .container-header__center-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .services__content, .services > span, .container-header .container-header__up-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services {
+  color: #ffffff;
+  background-color: #4bcaff;
+}
+.services > span {
+  max-width: 1000px;
+  font-size: 3rem;
+  line-height: 2.4rem;
+  margin: 0 auto;
+  padding-top: 8rem;
+  box-sizing: border-box;
+}
+.services .services__content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3.7rem 0 8rem 0;
+  box-sizing: border-box;
+}
+.services .cervices__txt {
+  display: flex;
+  flex-direction: column;
+}
+.services .cervices__txt span {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
+.services .cervices__txt small {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-top: 2.2rem;
+}
+.services .coffee-logo {
+  width: 34px;
+  height: 48px;
+  margin-bottom: 2.3rem;
+  background-image: url(../images/coffee.png);
+  background-repeat: no-repeat;
+}
+.services .instant-logo {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 2.3rem;
+  background-image: url(../images/instant.png);
+  background-repeat: no-repeat;
+}
+.services .serious-logo {
+  width: 47px;
+  height: 45px;
+  margin-bottom: 2.3rem;
+  background-image: url(../images/dslr.png);
+  background-repeat: no-repeat;
+}
+.services .frame-logo {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 2.3rem;
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */

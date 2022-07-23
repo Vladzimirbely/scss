@@ -1,0 +1,80 @@
+%center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services {
+    color: #ffffff;
+    background-color: #4bcaff;
+
+    >span {
+        max-width: 1000px;
+        font-size: 3rem;
+        line-height: 2.4rem;
+        @extend %space-between;
+        margin: 0 auto;
+        padding-top: 8rem;
+        box-sizing: border-box;
+    }
+
+    .services__content  {
+        max-width: 1000px;
+        @extend %space-between;
+        margin: 0 auto;
+        padding: 3.7rem 0 8rem 0;
+        box-sizing: border-box;
+    }
+
+    .cervices__txt {
+        display: flex;
+        flex-direction: column;
+        span {
+            font-size: 2.4rem;
+            line-height: 2.4rem;
+        }
+        small {
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            margin-top: 2.2rem;
+        }
+    }
+
+    .coffee-logo {
+        width: 34px;
+        height: 48px;
+        margin-bottom: 2.3rem;
+        background-image: url(../images/coffee.png);
+        background-repeat: no-repeat;
+    }
+
+    .instant-logo {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 2.3rem;
+        background-image: url(../images/instant.png);
+        background-repeat: no-repeat;
+    }
+
+    .serious-logo {
+        width: 47px;
+        height: 45px;
+        margin-bottom: 2.3rem;
+        background-image: url(../images/dslr.png);
+        background-repeat: no-repeat;
+    }
+
+    .frame-logo {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 2.3rem;
+        background-image: url(../images/frame.png);
+        background-repeat: no-repeat;
+    }
+}
