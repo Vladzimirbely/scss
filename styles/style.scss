@@ -1,2 +1,10 @@
-@import 'header.scss';
-@import 'services';
+@font-face {
+    font-family: 'Segoe';
+    src: url('../fonts/Segoe.woff') format('woff'),
+         url('../fonts/Segoe.woff2') format('woff2');
+    font-weight: 700;
+}
+
+@import './header.scss';
+@import './services.scss';
+@import './portfolio.scss';

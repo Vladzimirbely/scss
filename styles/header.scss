@@ -22,7 +22,7 @@ body {
 
 .container-header {
     max-width: 2960px;
-    height: 790px;
+    height: 800px;
     background: url(../images/header.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,8 +34,8 @@ body {
         opacity: 0.7;
     }
     .container-header__up-panel {
-        width: 1000px;
-        height: 140px;
+        width: 1167px;
+        height: 145px;
         @extend %space-between;
         margin: 0 auto;
     }
@@ -45,6 +45,11 @@ body {
         line-height: 2.4rem;
         color: #ffffff;
         border: 0;
+        padding-right: 3.5rem;
+        box-sizing: border-box;
+        &:last-child {
+            padding-right: 0;
+        }
         &:hover {
             border: 2px solid #4bcaff;
             color: #4bcaff;
@@ -57,12 +62,19 @@ body {
         max-width: 2960px;
         height: 650px;
         @extend %center-content;
+        flex-direction: column;
+        >div {
+            @extend %center-content;
+            flex-direction: column;
+            padding: 1rem 1.5rem 0 1.5rem;
+            box-sizing: border-box;
+        }
     }
 
     .container-header__txt {
         max-width: 1000px;
         font-size: 4.2rem;
-        line-height: 7.5rem;
+        font-weight: 300;
         color: #ffffff;
     }
 
