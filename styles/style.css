@@ -19,7 +19,7 @@ body {
   align-items: center;
 }
 
-.default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .services .services__content, .services > span, .container-header .container-header__up-panel {
+.twitter-section__wrap .twitter-section__header, .default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .services .services__content, .services > span, .container-header .container-header__up-panel {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,7 +87,7 @@ body {
   align-items: center;
 }
 
-.default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .services .services__content, .services > span, .container-header .container-header__up-panel {
+.twitter-section__wrap .twitter-section__header, .default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .services .services__content, .services > span, .container-header .container-header__up-panel {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -159,7 +159,7 @@ body {
   align-items: center;
 }
 
-.default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .container-header .container-header__up-panel, .services > span, .services .services__content {
+.twitter-section__wrap .twitter-section__header, .default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .container-header .container-header__up-panel, .services > span, .services .services__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -271,7 +271,7 @@ body {
   align-items: center;
 }
 
-.default-section__wrap, .container-header .container-header__up-panel, .services > span, .services .services__content, .portfolio__content .portfolio__navbar, .portfolio__content .portfolio__photos {
+.twitter-section__wrap .twitter-section__header, .default-section__wrap, .container-header .container-header__up-panel, .services > span, .services .services__content, .portfolio__content .portfolio__navbar, .portfolio__content .portfolio__photos {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -316,6 +316,54 @@ body {
 .default-section__wrap .default-section__txt button:hover {
   color: #515f67;
   background-color: #353f46;
+}
+
+.twitter-section__wrap .twitter-section__header, .container-header .container-header__up-panel, .services > span, .services .services__content, .portfolio__content .portfolio__navbar, .portfolio__content .portfolio__photos, .default-section__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.twitter-section {
+  height: 307px;
+  background-color: #4bcaff;
+}
+
+.twitter-section__wrap {
+  max-width: 1167px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 8rem 0;
+  box-sizing: border-box;
+}
+.twitter-section__wrap .twitter-section__header span {
+  font-size: 3rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+  font-weight: 300;
+}
+.twitter-section__wrap .twitter-section__header a {
+  text-decoration: none;
+}
+.twitter-section__wrap .twitter-section__header i {
+  font-size: 3rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+}
+.twitter-section__wrap .twitter-section__contact {
+  font-size: 2.8rem;
+  line-height: 5rem;
+  color: #ffffff;
+  font-weight: 300;
+}
+.twitter-section__wrap .twitter-section__contact a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.twitter-section__wrap .twitter-section__contact a:hover {
+  border-bottom: 1px solid #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
