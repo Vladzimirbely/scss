@@ -27,12 +27,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     --bs-gutter-x: 0;
+
     .navbar{
         padding: 0 2rem;
         box-sizing: border-box;
         background-color: #000000;
         opacity: 0.7;
     }
+
     .container-header__up-panel {
         width: 1167px;
         height: 145px;
@@ -47,9 +49,11 @@ body {
         border: 0;
         padding-right: 3.5rem;
         box-sizing: border-box;
+
         &:last-child {
             padding-right: 0;
         }
+
         &:hover {
             border: 2px solid #4bcaff;
             color: #4bcaff;
@@ -63,6 +67,7 @@ body {
         height: 650px;
         @extend %center-content;
         flex-direction: column;
+        
         >div {
             @extend %center-content;
             flex-direction: column;

@@ -14,6 +14,7 @@
     max-width: 1167px;
     height: 846px;
     margin: 0 auto;
+
     .portfolio__navbar {
         width: 1167px;
         @extend %space-between;
@@ -35,9 +36,11 @@
         border: 0;
         padding-right: 4rem;
         box-sizing: border-box;
+
         &:last-child {
             padding-right: 0;
         }
+
         &:hover {
             border: 2px solid #4bcaff;
             color: #4bcaff;
@@ -51,6 +54,7 @@
         flex-wrap: wrap;
         padding: 8rem 0;
         box-sizing: border-box;
+
         .portfolio__photo-1 {
             width: 270px;
             height: 292px;
@@ -105,6 +109,24 @@
             height: 292px;
             background-image: url(../images/portfolio-photo-8.png);
             border: 10px solid #ffffff;
+        }
+
+        .portfolio__txt {
+            
+            button {
+                z-index: -1;
+            }
+            width: 250px;
+            height: 272px;
+            @extend %center-content;
+        }
+        
+        .portfolio__txt:hover {
+            width: 250px;
+            height: 272px;
+            @extend %center-content;
+            background-color: #000000;
+            opacity: 0.7;
         }
     }
 }

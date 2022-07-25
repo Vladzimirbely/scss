@@ -1,0 +1,57 @@
+%center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.default-section {
+    height: 470px;
+    background-color: #515f67;
+}
+
+.default-section__wrap {
+    max-width: 1167px;
+    @extend %space-between;
+    margin: 0 auto;
+    padding: 8rem 0;
+    box-sizing: border-box;
+    
+    .default-section__txt {
+        width: 540px;
+
+        span {
+            font-size: 3rem;
+            line-height: 2.4rem;
+            color: #ffffff;
+            font-weight: 300;
+        }
+
+        p {
+            font-size: 1.4rem;
+            line-height: 2,4rem;
+            color: #ffffff;
+            padding-top: 3rem;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 140px;
+            height: 45px;
+            font-size: 14px;
+            line-height: 24px;
+            margin-top: 3rem;
+            color: #353f46;
+            background-color: #515f67;
+            &:hover {
+                color: #515f67;
+                background-color: #353f46;
+            }
+        }
+    }
+}

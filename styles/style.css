@@ -13,13 +13,13 @@ body {
   min-width: 320px;
 }
 
-.container-header .container-header__center-panel > div, .container-header .container-header__center-panel {
+.portfolio__content .portfolio__photos .portfolio__txt:hover, .portfolio__content .portfolio__photos .portfolio__txt, .container-header .container-header__center-panel > div, .container-header .container-header__center-panel {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .services .services__content, .services > span, .container-header .container-header__up-panel {
+.default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .services .services__content, .services > span, .container-header .container-header__up-panel {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,13 +81,13 @@ body {
   opacity: 0.8;
 }
 
-.container-header .container-header__center-panel, .container-header .container-header__center-panel > div {
+.portfolio__content .portfolio__photos .portfolio__txt:hover, .portfolio__content .portfolio__photos .portfolio__txt, .container-header .container-header__center-panel, .container-header .container-header__center-panel > div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .services .services__content, .services > span, .container-header .container-header__up-panel {
+.default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .services .services__content, .services > span, .container-header .container-header__up-panel {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -153,13 +153,13 @@ body {
   background-repeat: no-repeat;
 }
 
-.container-header .container-header__center-panel, .container-header .container-header__center-panel > div {
+.portfolio__content .portfolio__photos .portfolio__txt:hover, .portfolio__content .portfolio__photos .portfolio__txt, .container-header .container-header__center-panel, .container-header .container-header__center-panel > div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .container-header .container-header__up-panel, .services > span, .services .services__content {
+.default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .container-header .container-header__up-panel, .services > span, .services .services__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -250,6 +250,72 @@ body {
   height: 292px;
   background-image: url(../images/portfolio-photo-8.png);
   border: 10px solid #ffffff;
+}
+.portfolio__content .portfolio__photos .portfolio__txt {
+  width: 250px;
+  height: 272px;
+}
+.portfolio__content .portfolio__photos .portfolio__txt button {
+  z-index: -1;
+}
+.portfolio__content .portfolio__photos .portfolio__txt:hover {
+  width: 250px;
+  height: 272px;
+  background-color: #000000;
+  opacity: 0.7;
+}
+
+.container-header .container-header__center-panel, .container-header .container-header__center-panel > div, .portfolio__content .portfolio__photos .portfolio__txt, .portfolio__content .portfolio__photos .portfolio__txt:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default-section__wrap, .container-header .container-header__up-panel, .services > span, .services .services__content, .portfolio__content .portfolio__navbar, .portfolio__content .portfolio__photos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.default-section {
+  height: 470px;
+  background-color: #515f67;
+}
+
+.default-section__wrap {
+  max-width: 1167px;
+  margin: 0 auto;
+  padding: 8rem 0;
+  box-sizing: border-box;
+}
+.default-section__wrap .default-section__txt {
+  width: 540px;
+}
+.default-section__wrap .default-section__txt span {
+  font-size: 3rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+  font-weight: 300;
+}
+.default-section__wrap .default-section__txt p {
+  font-size: 1.4rem;
+  line-height: 2, 4rem;
+  color: #ffffff;
+  padding-top: 3rem;
+  box-sizing: border-box;
+}
+.default-section__wrap .default-section__txt button {
+  width: 140px;
+  height: 45px;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 3rem;
+  color: #353f46;
+  background-color: #515f67;
+}
+.default-section__wrap .default-section__txt button:hover {
+  color: #515f67;
+  background-color: #353f46;
 }
 
 /*# sourceMappingURL=style.css.map */
