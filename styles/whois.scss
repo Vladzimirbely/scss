@@ -1,0 +1,67 @@
+%center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whois {
+    height: 500px;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/whois_bg.png);
+    background-size: cover;
+}
+
+.whois__container {
+    max-width: 1167px;
+    margin: 0 auto;
+    padding-top: 10rem;
+    box-sizing: border-box;
+
+    .whois__row {
+        h2 {
+            font-size: 3rem;
+            line-height: 2.4rem;
+            color: #ffffff;
+            font-weight: 300;
+        }
+    }
+
+    .row {
+        a {
+            width: 60px;
+            height: 60px;
+            display: inline-flex;
+            margin-right: 2.1rem;
+            border: 1px solid #ffffff;
+            text-decoration: none;
+            &:hover i {
+                color: #000;
+                background-color: #ffffff;
+            }
+        }
+
+        i {
+            width: 60px;
+            height: 60px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            line-height: 2.4rem;
+            color: #ffffff;
+        }
+    }
+
+    h5 {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        color: #ffffff;
+        padding-bottom: 3.7rem;
+        box-sizing: border-box;
+    }
+}

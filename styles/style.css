@@ -366,4 +366,64 @@ body {
   border-bottom: 1px solid #ffffff;
 }
 
+.container-header .container-header__center-panel, .container-header .container-header__center-panel > div, .portfolio__content .portfolio__photos .portfolio__txt, .portfolio__content .portfolio__photos .portfolio__txt:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-header .container-header__up-panel, .services > span, .services .services__content, .portfolio__content .portfolio__navbar, .portfolio__content .portfolio__photos, .default-section__wrap, .twitter-section__wrap .twitter-section__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whois {
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/whois_bg.png);
+  background-size: cover;
+}
+
+.whois__container {
+  max-width: 1167px;
+  margin: 0 auto;
+  padding-top: 10rem;
+  box-sizing: border-box;
+}
+.whois__container .whois__row h2 {
+  font-size: 3rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+  font-weight: 300;
+}
+.whois__container .row a {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  margin-right: 2.1rem;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+}
+.whois__container .row a:hover i {
+  color: #000;
+  background-color: #ffffff;
+}
+.whois__container .row i {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+}
+.whois__container h5 {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+  padding-bottom: 3.7rem;
+  box-sizing: border-box;
+}
+
 /*# sourceMappingURL=style.css.map */
