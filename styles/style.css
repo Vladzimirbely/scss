@@ -19,7 +19,7 @@ body {
   align-items: center;
 }
 
-.twitter-section__wrap .twitter-section__header, .default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .services .services__content, .services > span, .container-header .container-header__up-panel {
+.twitter-section__wrap .twitter-section__title, .default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .services .services__content, .services > span, .container-header .container-header__up-panel {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,7 +87,7 @@ body {
   align-items: center;
 }
 
-.twitter-section__wrap .twitter-section__header, .default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .services .services__content, .services > span, .container-header .container-header__up-panel {
+.twitter-section__wrap .twitter-section__title, .default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .services .services__content, .services > span, .container-header .container-header__up-panel {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -159,7 +159,7 @@ body {
   align-items: center;
 }
 
-.twitter-section__wrap .twitter-section__header, .default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .container-header .container-header__up-panel, .services > span, .services .services__content {
+.twitter-section__wrap .twitter-section__title, .default-section__wrap, .portfolio__content .portfolio__photos, .portfolio__content .portfolio__navbar, .container-header .container-header__up-panel, .services > span, .services .services__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -271,7 +271,7 @@ body {
   align-items: center;
 }
 
-.twitter-section__wrap .twitter-section__header, .default-section__wrap, .container-header .container-header__up-panel, .services > span, .services .services__content, .portfolio__content .portfolio__navbar, .portfolio__content .portfolio__photos {
+.twitter-section__wrap .twitter-section__title, .default-section__wrap, .container-header .container-header__up-panel, .services > span, .services .services__content, .portfolio__content .portfolio__navbar, .portfolio__content .portfolio__photos {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -318,7 +318,7 @@ body {
   background-color: #353f46;
 }
 
-.twitter-section__wrap .twitter-section__header, .container-header .container-header__up-panel, .services > span, .services .services__content, .portfolio__content .portfolio__navbar, .portfolio__content .portfolio__photos, .default-section__wrap {
+.twitter-section__wrap .twitter-section__title, .container-header .container-header__up-panel, .services > span, .services .services__content, .portfolio__content .portfolio__navbar, .portfolio__content .portfolio__photos, .default-section__wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -335,47 +335,37 @@ body {
   justify-content: space-between;
   flex-direction: column;
   margin: 0 auto;
-  padding: 8rem 0;
+  padding: 7.6rem 0;
   box-sizing: border-box;
 }
-.twitter-section__wrap .twitter-section__header span {
+.twitter-section__wrap .twitter-section__title span {
   font-size: 3rem;
   line-height: 2.4rem;
   color: #ffffff;
   font-weight: 300;
 }
-.twitter-section__wrap .twitter-section__header a {
+.twitter-section__wrap .twitter-section__title a {
   text-decoration: none;
 }
-.twitter-section__wrap .twitter-section__header i {
+.twitter-section__wrap .twitter-section__title i {
   font-size: 3rem;
   line-height: 2.4rem;
   color: #ffffff;
 }
-.twitter-section__wrap .twitter-section__contact {
+.twitter-section__wrap .twitter-section__subtitle {
   font-size: 2.8rem;
   line-height: 5rem;
   color: #ffffff;
   font-weight: 300;
+  margin-top: 3.3rem;
 }
-.twitter-section__wrap .twitter-section__contact a {
+.twitter-section__wrap .twitter-section__subtitle a {
   text-decoration: none;
+  letter-spacing: 3px;
   color: #ffffff;
 }
-.twitter-section__wrap .twitter-section__contact a:hover {
+.twitter-section__wrap .twitter-section__subtitle a:hover {
   border-bottom: 1px solid #ffffff;
-}
-
-.container-header .container-header__center-panel, .container-header .container-header__center-panel > div, .portfolio__content .portfolio__photos .portfolio__txt, .portfolio__content .portfolio__photos .portfolio__txt:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-header .container-header__up-panel, .services > span, .services .services__content, .portfolio__content .portfolio__navbar, .portfolio__content .portfolio__photos, .default-section__wrap, .twitter-section__wrap .twitter-section__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .whois {
@@ -387,7 +377,7 @@ body {
 .whois__container {
   max-width: 1167px;
   margin: 0 auto;
-  padding-top: 10rem;
+  padding-top: 9.5rem;
   box-sizing: border-box;
 }
 .whois__container .whois__row h2 {
@@ -422,8 +412,47 @@ body {
   font-size: 1.4rem;
   line-height: 2.4rem;
   color: #ffffff;
-  padding-bottom: 3.7rem;
+  margin-top: 1.8rem;
+}
+
+.testimonials__txt {
+  max-width: 1167px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.testimonials__txt .testimonials__title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #515f67;
+  font-weight: 300;
+  padding-top: 7.9rem;
   box-sizing: border-box;
+}
+.testimonials__txt .testimonials__title .quotes {
+  font-size: 7.2rem;
+  line-height: 5rem;
+  color: #515f67;
+  font-weight: 700;
+}
+.testimonials__txt .testimonials__subtitle {
+  font-size: 2.8rem;
+  line-height: 5rem;
+  color: #515f67;
+  font-weight: 300;
+  padding-top: 1.5rem;
+  box-sizing: border-box;
+}
+.testimonials__txt .testimonials__subtitle small {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 5rem;
+  padding-top: 1rem;
+  color: #4bcaff;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
