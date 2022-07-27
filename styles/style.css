@@ -455,4 +455,94 @@ body {
   font-weight: bold;
 }
 
+.contact__container {
+  height: 814px;
+  background-image: url(../images/contact_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact__container .contact__wrap {
+  max-width: 1167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 8rem 0;
+  box-sizing: border-box;
+}
+.contact__container .contact__wrap > span {
+  font-size: 3rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+  font-weight: 300;
+}
+.contact__container .contact__wrap .row label,
+.contact__container .contact__wrap .row span {
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  padding-top: 4.3rem;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+.contact__container .contact__wrap .row .col-6 {
+  padding-top: 6rem;
+  box-sizing: border-box;
+}
+.contact__container .contact__wrap .row input {
+  width: 470px;
+  height: 60px;
+  background-color: #353f46;
+  border: 2px solid #ffffff;
+}
+.contact__container .contact__wrap .row textarea {
+  width: 1170px;
+  height: 220px;
+  background-color: #353f46;
+  border: 2px solid #ffffff;
+}
+.contact__container .contact__wrap button {
+  width: 370px;
+  height: 60px;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  border-radius: 0;
+  margin-top: 4.3rem;
+  color: #ffffff;
+  background-color: #4bcaff;
+}
+.contact__container .contact__wrap button:hover {
+  color: #4bcaff;
+  background-color: #ffffff;
+}
+
+footer {
+  background-color: #515f67;
+}
+
+.footer__wrap {
+  max-width: 1167px;
+  height: 168px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.footer__wrap .footer__links a {
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  padding: 0 0.8rem;
+  box-sizing: border-box;
+  color: #3c474f;
+  border-right: 1px solid #3c474f;
+}
+.footer__wrap .footer__links a:last-child {
+  border-right: none;
+}
+.footer__wrap .footer__links a:hover {
+  color: #ffffff;
+}
+.footer__wrap .footer__year {
+  color: #3c474f;
+}
+
 /*# sourceMappingURL=style.css.map */
